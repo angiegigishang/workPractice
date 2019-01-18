@@ -1,0 +1,173 @@
+{
+  "/api/monitor/all/product_line_6t90": {
+    "app_group": "electrical_industry",
+    "app_name": "production_line_monitor",
+    "code": "success",
+    "data": {
+      "process_list": [
+        {"name": "铆芯", "code": "process_0001", "if_change": true, "is_manul": false},
+        {"name": "插簧片", "code": "process_0002","if_change": false, "is_manul": false},
+        {"name": "点焊", "code": "process_0003", "if_change": false, "is_manul": false},
+        {"name": "装底板", "code": "process_0004", "if_change": false, "is_manul": false},
+        {"name": "人工调整", "code": "process_0005", "if_change": false, "is_manul": true},
+        {"name": "自动检测", "code": "process_0006", "if_change": true, "is_manul": false},
+        {"name": "套外壳", "code": "process_0007", "if_change": false, "is_manul": false},
+        {"name": "一次电检", "code": "process_0008", "if_change": false, "is_manul": false},
+        {"name": "沾锡", "code": "process_0009", "if_change": false, "is_manul": false},
+        {"name": "封胶", "code": "process_0010", "if_change": false, "is_manul": false},
+        {"name": "烘烤", "code": "process_0011", "if_change": false, "is_manul": false},
+        {"name": "打标", "code": "process_0012", "if_change": true, "is_manul": false},
+        {"name": "封透气孔", "code": "process_0013", "if_change": false, "is_manul": false},
+        {"name": "二次电检", "code": "process_0014", "if_change": false, "is_manul": false},
+        {"name": "人工检查", "code": "process_0015","if_change": false, "is_manul": true},
+        {"name": "包装", "code": "process_0016", "if_change": false, "is_manul": true}
+      ],
+      "warning": {
+        "process_0003": [{
+          "error_code": "01",
+          "error_message": "错误"
+        }]
+      },
+      "check_in": {
+        "checkinInfo": [
+          {
+            "processCodes": ["process_0001", "process_0002", "process_0003", "process_0004"],
+            "groupCode": "kq_ryfz_6t90_z1",
+            "members": [
+              {"code": "person_linfeng", "name": "林峰", "on_work": true}
+            ]
+          },
+          {"processCodes": ["process_0005"], "groupCode": "kq_ryfz_6t90_z2", "members": [{"code": "person_wangtao", "name": "王涛", "on_work": true}, {"code": "person_yinxuejie", "name": "殷学杰", "on_work": true}, {"code": "person_raoguihe", "name": "绕桂和", "on_work": true}]},
+          {"processCodes": ["process_0006", "process_0007", "process_0008", "process_0009", "process_0010", "process_0011", "process_0012", "process_0013", "process_0014"], "groupCode": "kq_ryfz_6t90_z3", "members": [{"code": "person_liujiangzhong", "name": "刘江中", "on_work": true}, {"code": "person_fuxunmin", "name": "付训民", "on_work": true}]},
+          {"processCodes": ["process_0015"], "groupCode": "kq_ryfz_6t90_z4", "members": [{"code": "person_guoyingying", "name": "郭盈盈", "on_work": true}, {"code": "person_zhuxinai", "name": "朱新爱", "on_work": true}]},
+          {"processCodes": ["process_0016"], "groupCode": "kq_ryfz_6t90_z5", "members": []}, {"processCodes": [], "groupCode": "kq_ryfz_6t90_z0", "members": []}
+        ]
+    },
+      "plan": [
+        {"planId": "1811019380", "planProduct": "T901H40ADC12V 4脚 23规格", "productCode": "materiel_t901h40adc12v4_23", "planNum": 4000},
+        {"planId": "1811019588", "planProduct": "T901Z30ADC12V 5脚 永能标", "productCode": "materiel_t901z30adc12v5_ynb", "planNum": 5000},
+        {"planId": "1811019590", "planProduct": "T901H40ADC12V 4脚 永能标", "productCode": "materiel_t901h40adc12v4_ynb", "planNum": 3000}
+      ],
+      "current_plan": [
+        {
+          "id": 1,
+          "group":  ["process_0001", "process_0002", "process_0003", "process_0004", "process_0005"],
+          "plan_id": "1811019380"
+        },
+        {
+          "id": 2,
+          "group":  ["process_0006", "process_0007", "process_0008", "process_0009", "process_0010", "process_0011"],
+          "plan_id": "1811019588"
+        },
+        {
+          "id": 3,
+          "group":  ["process_0012", "process_0013", "process_0014", "process_0015", "process_0016"],
+          "plan_id": "1811019590"
+        }
+
+      ],
+      "equipment_status": {
+          "process_0001": 0,
+          "process_0002": 3,
+          "process_0003": 0,
+          "process_0004": 0,
+          "process_0005": 1,
+          "process_0006": 0,
+          "process_0007": 0,
+          "process_0008": 2,
+          "process_0009": 0,
+          "process_0010": 0,
+          "process_0011": 0,
+          "process_0012": 0,
+          "process_0013": 0,
+          "process_0014": 0,
+          "process_0015": 0,
+          "process_0016": 0
+      },
+      "data_collection": {
+        "process_quality": {
+          "process_0001": {
+              "positive_num": 20,
+              "negative_num": null
+          },
+          "process_0002": {
+              "positive_num": 20,
+              "negative_num": null
+          },
+          "process_0003": {
+              "positive_num": 20,
+              "negative_num": null
+          },
+          "process_0004": {
+              "positive_num": 20,
+              "negative_num": null
+          },
+          "process_0005": {
+              "positive_num": 20,
+              "negative_num": null
+          },
+          "process_0006": {
+              "positive_num": 20,
+              "negative_num": null
+          },
+          "process_0007": {
+              "positive_num": 20,
+              "negative_num": null
+          },
+          "process_0008": {
+              "positive_num": 20,
+              "negative_num": null
+          },
+          "process_0009": {
+              "positive_num": 20,
+              "negative_num": null
+          },
+          "process_0010": {
+              "positive_num": 20,
+              "negative_num": null
+          },
+          "process_0011": {
+              "positive_num": 20,
+              "negative_num": null
+          },
+          "process_0012": {
+              "positive_num": 20,
+              "negative_num": null
+          },
+          "process_0013": {
+              "positive_num": 20,
+              "negative_num": null
+          },
+          "process_0014": {
+              "positive_num": 20,
+              "negative_num": null
+          },
+          "process_0015": {
+              "positive_num": 20,
+              "negative_num": null
+          },
+          "process_0016": {
+              "positive_num": 20,
+              "negative_num": null
+          }
+        },
+        "plan_quality": {
+          "1811019380": {
+            "positive_num": 4000,
+            "negative_num": 0
+          },
+          "1811019588": {
+            "positive_num": 2000,
+            "negative_num": 0
+          },
+          "1811019590": {
+            "positive_num": 0,
+            "negative_num": 0
+          }
+        },
+        "total": {"positive": 0, "negative": 0}
+      }
+    },
+    "info": "success get data"
+}
+}

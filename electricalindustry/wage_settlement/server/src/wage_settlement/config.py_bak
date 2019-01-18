@@ -1,0 +1,60 @@
+from os.path import dirname, realpath, basename, join
+from mg_app_framework import AppConfigBasic, AppType, MongodbConfigBasic
+
+
+class MongoConfigStore(MongodbConfigBasic):
+
+    def get_mongodb_host(self):
+        # return '192.168.20.106,192.168.20.107,192.168.20.108'
+        return '192.168.20.128'
+
+    def get_mongodb_port(self):
+        return 27017
+
+
+class ConfigStore(AppConfigBasic):
+    # ==================== DON'T MODIFY THE CODE BETWEEN COMMENT LINE ====================
+
+    work_dir = dirname(dirname(dirname(realpath(__file__))))
+    app = basename(dirname(realpath(__file__)))
+    log_path = join(work_dir, 'log', app + '.log')
+    uuid_path = join(work_dir, '.appid')
+
+    def get_module_dir(self):
+        return dirname(realpath(__file__))
+
+    def get_log_path(self):
+        return self.log_path
+
+    def get_uuid_path(self):
+        return self.uuid_path
+
+    def get_data(self):
+        return self.data
+
+    # ==================== DON'T MODIFY THE CODE BETWEEN COMMENT LINE ====================
+
+    data = {
+        'app_group': '',
+        'app_name': '',
+        'app_type': AppType.user,
+        'config_create': True,
+        'data': {
+            'api': {
+                'report': 'http://192.168.20.128:9000/api/progress_report/report/current_month',
+                'working_hour': 'http://localhost:12020/api/attendance_manage/working_hours'
+            }
+        }
+    }
+
+    def get_admin_host(self):
+        return '192.168.20.125'
+
+    def get_app_port(self):
+        return 11010
+
+    def connect_admin(self):
+        return False
+
+    def cross_domain(self):
+        return True

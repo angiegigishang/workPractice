@@ -1,0 +1,170 @@
+{
+	"processList": [
+    ["001", "ÉÏÁÏ", false],
+    ["002", "ÈÆÏß", false],
+    ["003", "°ü½º´ø", false],
+    ["004", "º¸Îý", false],
+    ["005", "Ã­Ð¾", false],
+    ["006", "²å»ÉÆ¬", false],
+    ["007", "µãº¸", false],
+    ["008", "Ì×Ö½°å", false],
+    ["009", "ÈË¹¤¼ì²éµ÷Õû", true],
+    ["010", "Ò»´Îµç¼ì", true],
+    ["011", "ÕÖ¿Ç", false],
+    ["012", "¾øÔµ¼ì²é", false],
+    ["013", "µçÆø¼ì", false],
+    ["014", "µã½º", false],
+    ["015", "ºæ¿¾", false],
+    ["016", "´ò±ê", false],
+    ["017", "·âÍ¸Æø¿×", false],
+    ["018", "¶þ´Îµç¼ì", true],
+    ["019", "ÈË¹¤¼ì²é", true],
+    ["020", "°ü×°", true]
+  ],
+  "checkinByGroup": [
+    {
+      "processIds": ["001", "002", "003", "004"],
+      "group_id": "1",
+      "members": [
+        {
+          "name": "ÕÅÈý",
+          "is_leader": true,
+          "uuid": "111",
+          "on_work": false
+        },
+        {
+          "name": "ÕÅÈý",
+          "is_leader": false,
+          "uuid": "112",
+          "on_work": false
+        },
+        {
+          "name": "ÕÅÈý",
+          "is_leader": false,
+          "uuid": "113",
+          "on_work": false
+        }
+      ]
+    },
+    {
+      "processIds": ["005", "006", "007", "008"],
+      "group_id": "2",
+      "members": [
+        {
+          "name": "ÕÅÈý",
+          "is_leader": true,
+          "uuid": "123",
+          "on_work": false
+        },
+        {
+          "name": "ÕÅÈý",
+          "is_leader": false,
+          "uuid": "122",
+          "on_work": false
+        },
+        {
+          "name": "ÕÅÈý",
+          "is_leader": false,
+          "uuid": "123",
+          "on_work": false
+        }
+      ]
+    },
+    {
+      "processIds": ["009"],
+      "group_id": "3",
+      "members": [
+        {
+          "name": "ÕÅÈý",
+          "is_leader": true,
+          "uuid": "131",
+          "on_work": false
+        },
+        {
+          "name": "ÕÅÈý",
+          "is_leader": false,
+          "uuid": "132",
+          "on_work": false
+        },
+        {
+          "name": "ÕÅÈý",
+          "is_leader": false,
+          "uuid": "133",
+          "on_work": true
+        }
+      ]
+    },
+    {
+      "processIds": ["010", "011", "012", "013", "014", "015", "016", "017", "018"],
+      "group_id": "4",
+      "members": [
+        {
+          "name": "ÕÅÈý",
+          "is_leader": true,
+          "uuid": "141",
+          "on_work": false
+        },
+        {
+          "name": "ÕÅÈý",
+          "is_leader": false,
+          "uuid": "142",
+          "on_work": false
+        },
+        {
+          "name": "ÕÅÈý",
+          "is_leader": false,
+          "uuid": "143",
+          "on_work": true
+        }
+      ]
+    },
+    {
+      "processIds": ["019"],
+      "group_id": "5",
+      "members": [
+        {
+          "name": "ÕÅÈý",
+          "is_leader": true,
+          "uuid": "151",
+          "on_work": false
+        },
+        {
+          "name": "ÕÅÈý",
+          "is_leader": false,
+          "uuid": "152",
+          "on_work": false
+        },
+        {
+          "name": "ÕÅÈý",
+          "is_leader": false,
+          "uuid": "153",
+          "on_work": true
+        }
+      ]
+    },
+    {
+      "processIds": ["020"],
+      "group_id": "6",
+      "members": [
+        {
+          "name": "ÕÅÈý",
+          "is_leader": true,
+          "uuid": "161",
+          "on_work": false
+        },
+        {
+          "name": "ÕÅÈý",
+          "is_leader": false,
+          "uuid": "162",
+          "on_work": false
+        },
+        {
+          "name": "ÕÅÈý",
+          "is_leader": false,
+          "uuid": "163",
+          "on_work": false
+        }
+      ]
+    }
+  ]
+}

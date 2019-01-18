@@ -1,0 +1,7 @@
+.idea/
+*.pyc
+*.log
+*/log/*
+*.tar.gz
+*.appid
+/venv

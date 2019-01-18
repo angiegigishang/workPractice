@@ -1,0 +1,2 @@
+1 cmd.exe进入工程目录xlgf_erp
+2 运行 pyinstaller -F -i images\\zjrealtech_icon.ico -n xlgf_erp_cloud --hidden-import pymssql -w --clean main.py

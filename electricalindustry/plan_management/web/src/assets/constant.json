@@ -1,0 +1,32 @@
+{
+  "planTypeList": {
+    "0": "erp导入",
+    "1": "自定义"
+  },
+  "planStatusList": {
+    "0": "未下发",
+    "1": "已下发",
+    "2": "进行中",
+    "3": "暂停",
+    "4": "已完工",
+    "5": "不可下发"
+  },
+  "tableColumns": [
+    { "label": "任务单号", "sortable": true, "field": "task_no", "name": "task_no", "align": "center", "focus": true },
+    { "label": "物料名称", "sortable": true, "field": "material_name", "name": "material_name", "align": "center", "focus": true },
+    { "label": "物料编码", "sortable": true, "field": "material_code", "name": "material_code", "align": "center", "focus": true },
+    { "label": "物料单位", "sortable": true, "field": "material_unit", "name": "material_unit", "align": "center", "focus": true, "nodisplay": true },
+    { "label": "规格", "sortable": true, "field": "material_spec", "name": "material_spec", "align": "center", "focus": true },
+    { "label": "流转状态", "sortable": true, "field": "erp_plan_status", "name": "erp_plan_status", "align": "center", "hide": true },
+    { "label": "计划数量", "sortable": true, "field": "plan_count", "name": "plan_count", "align": "center", "focus": true, "type": "number" },
+    { "label": "计划开工日期", "sortable": true, "sortable": true, "field": "plan_start_date", "name": "plan_start_date", "align": "center", "type": "date" },
+    { "label": "备注", "sortable": true, "sortable": true, "field": "comment", "name": "comment", "align": "center", "nodisplay": true },
+    { "label": "车间名", "sortable": true, "sortable": true, "field": "workshop_name", "name": "workshop_name", "align": "center", "focus": true, "type": "select" },
+    { "label": "产线信息", "sortable": true, "field": "product_line_code", "name": "product_line_code", "align": "center", "hide": true },
+    { "label": "录入人员", "sortable": true, "field": "operator", "name": "operator", "align": "center", "hide": true },
+    { "label": "录入时间", "sortable": true, "field": "create_time", "name": "create_time", "align": "center", "hide": true },
+    { "label": "修改时间", "sortable": true, "field": "modified_time", "name": "modified_time", "align": "center", "hide": true },
+    { "label": "计划状态", "sortable": true, "field": "plan_status", "name": "plan_status", "align": "center", "hide": true },
+    { "label": "计划类型", "sortable": true, "field": "plan_type", "name": "plan_type", "align": "center", "hide": true }
+  ]
+}

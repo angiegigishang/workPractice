@@ -1,0 +1,626 @@
+{
+  "/api/plan_management/manage/plan/config": {
+    "app_group": "electrical industry",
+    "app_name": "计划管理",
+    "code": "success",
+    "data": {
+      "material_config": [
+        {
+          "classify": "T90",
+          "specifications": "",
+          "description": "T901H40ADC12V 4脚 23规格",
+          "code": "material_t901h40adc12v4_23",
+          "identifier": "T901H40ADC12V 4脚 23规格",
+          "dimension": "个",
+          "name": "T901H40ADC12V 4脚 23规格"
+        },
+        {
+          "description": "T901Z30ADC12V 5脚 永能标",
+          "code": "material_t901z30adc12v5_ynb",
+          "identifier": "T901Z30ADC12V 5脚 永能标",
+          "dimension": "个",
+          "name": "T901Z30ADC12V 5脚 永能标",
+          "classify": "T90",
+          "specifications": ""
+        },
+        {
+          "code": "material_t901h40adc12v4_ynb",
+          "identifier": "T901H40ADC12V 4脚 永能标",
+          "dimension": "个",
+          "name": "T901H40ADC12V 4脚 永能标",
+          "classify": "T90",
+          "specifications": "",
+          "description": "T901H40ADC12V 4脚 永能标"
+        },
+        {
+          "identifier": "T901D40ADC24V 4脚",
+          "dimension": "个",
+          "name": "T901D40ADC24V 4脚",
+          "classify": "T90",
+          "specifications": "",
+          "description": "T901D40ADC24V 4脚",
+          "code": "material_t901d40adc24v4"
+        },
+        {
+          "name": "T901Z40ADC6V 5脚 NNC标",
+          "classify": "T90",
+          "specifications": "",
+          "description": "T901Z40ADC6V 5脚 NNC标",
+          "code": "material_t901z40adc6v5_nnc",
+          "identifier": "T901Z40ADC6V 5脚 NNC标",
+          "dimension": "个"
+        },
+        {
+          "specifications": "",
+          "description": "T901D40ADC12V 4脚 24规格",
+          "code": "material_t901d40adc12v4_24",
+          "identifier": "T901D40ADC12V 4脚 24规格",
+          "dimension": "个",
+          "name": "T901D40ADC12V 4脚 24规格",
+          "classify": "T90"
+        },
+        {
+          "description": "T901D40ADC12V 5脚 24规格",
+          "code": "material_t901d40adc12v5_24",
+          "identifier": "T901D40ADC12V 5脚 24规格",
+          "dimension": "个",
+          "name": "T901D40ADC12V 5脚 24规格",
+          "classify": "T90",
+          "specifications": ""
+        },
+        {
+          "code": "material_t901z30adc24v6_1_2w",
+          "identifier": "T901Z30ADC24V 6脚 1.2W",
+          "dimension": "个",
+          "name": "T901Z30ADC24V 6脚 1.2W",
+          "classify": "T90",
+          "specifications": "",
+          "description": "T901Z30ADC24V 6脚 1.2W"
+        },
+        {
+          "identifier": "T901H30ADC5V 4脚 永能标",
+          "dimension": "个",
+          "name": "T901H30ADC5V 4脚 永能标",
+          "classify": "T90",
+          "specifications": "",
+          "description": "T901H30ADC5V 4脚 永能标",
+          "code": "material_t901h30adc5v4_ynb"
+        },
+        {
+          "classify": "T90",
+          "specifications": "",
+          "description": "T901H30ADC12V 4脚 永能标",
+          "code": "material_t901h30adc12v4_ynb",
+          "identifier": "T901H30ADC12V 4脚 永能标",
+          "dimension": "个",
+          "name": "T901H30ADC12V 4脚 永能标"
+        },
+        {
+          "specifications": "",
+          "description": "T901H40ADC24V 4脚 客户标",
+          "code": "material_t901h40adc24v4_khb",
+          "identifier": "T901H40ADC24V 4脚 客户标",
+          "dimension": "个",
+          "name": "T901H40ADC24V 4脚 客户标",
+          "classify": "T90"
+        },
+        {
+          "description": "T901H30ADC48V 4脚 20S",
+          "code": "material_t901h30adc48v4_20s",
+          "identifier": "T901H30ADC48V 4脚 20S",
+          "dimension": "个",
+          "name": "T901H30ADC48V 4脚 20S",
+          "classify": "T90",
+          "specifications": ""
+        },
+        {
+          "identifier": "11120212210100002",
+          "dimension": "个",
+          "name": "T901H40ADC24V 4脚",
+          "classify": "T90",
+          "specifications": "",
+          "description": "T901H40ADC24V 4脚",
+          "code": "material_t901h40adc24v4"
+        },
+        {
+          "dimension": "个",
+          "name": "T901Z30ADC24V 5脚",
+          "classify": "T90",
+          "specifications": "",
+          "description": "T901Z30ADC24V 5脚",
+          "code": "material_t901z30adc24v5",
+          "identifier": "11120111210100030"
+        },
+        {
+          "classify": "T90",
+          "specifications": "",
+          "description": "T901Z30ADC12V 5脚",
+          "code": "material_t901z30adc12v5",
+          "identifier": "11120111205100062",
+          "dimension": "个",
+          "name": "T901Z30ADC12V 5脚"
+        },
+        {
+          "description": "T901H40ADC12V 5脚",
+          "code": "material_t901h40adc12v5",
+          "identifier": "11040212205100002",
+          "dimension": "个",
+          "name": "T901H40ADC12V 5脚",
+          "classify": "T90",
+          "specifications": ""
+        },
+        {
+          "code": "material_t901z40adc12v6",
+          "identifier": "11250112205100002",
+          "dimension": "个",
+          "name": "T901Z40ADC12V 6脚",
+          "classify": "T90",
+          "specifications": "",
+          "description": "T901Z40ADC12V 6脚"
+        },
+        {
+          "identifier": "11040111205100001",
+          "name": "T901Z30ADC12V 6脚",
+          "classify": "T90",
+          "dimension": "个",
+          "specifications": "",
+          "description": "T901Z30ADC12V 6脚",
+          "code": "material_t901z30adc12v6_1"
+        },
+        {
+          "classify": "T90",
+          "dimension": "个",
+          "specifications": "",
+          "description": "T901Z30ADC12V 6脚",
+          "code": "material_t901z30adc12v6_35",
+          "identifier": "11040111205100035",
+          "name": "T901Z30ADC12V 6脚"
+        },
+        {
+          "specifications": "",
+          "description": "T901H30ADC110V 5脚",
+          "code": "material_t901h30adc110v5",
+          "identifier": "11040211225100002",
+          "name": "T901H30ADC110V 5脚",
+          "classify": "T90",
+          "dimension": "个"
+        },
+        {
+          "description": "T901D40ADC12V 4脚",
+          "code": "material_t901d40adc12v4",
+          "identifier": "11120312205102402",
+          "name": "T901D40ADC12V 4脚",
+          "classify": "T90",
+          "dimension": "个",
+          "specifications": ""
+        },
+        {
+          "identifier": "T901D30ADC12V 5脚 17规格",
+          "name": "T901D30ADC12V 5脚 17规格",
+          "classify": "T90",
+          "dimension": "个",
+          "specifications": "",
+          "description": "T901D30ADC12V 5脚 17规格",
+          "code": "material_t901d30adc12v5_17"
+        },
+        {
+          "name": "T901H30ADC24V 4脚 47规格",
+          "classify": "T90",
+          "dimension": "个",
+          "specifications": "",
+          "description": "T901H30ADC24V 4脚 47规格",
+          "code": "material_t901h30adc24v4_47",
+          "identifier": "T901H30ADC24V 4脚 47规格"
+        },
+        {
+          "classify": "T90",
+          "dimension": "个",
+          "specifications": "OEC67E-1Z30ADC12V",
+          "description": "YONGNENG YX209E-S-112D",
+          "code": "material_yongneng_yx209e_s_112d",
+          "identifier": "11040111205100000",
+          "name": "YONGNENG YX209E-S-112D"
+        },
+        {
+          "description": "MEGAPOWER MP933-1C-12VDC",
+          "code": "material_megapower_mp933_1c_12vdc",
+          "identifier": "11040111205100000",
+          "name": "MEGAPOWER MP933-1C-12VDC",
+          "classify": "T90",
+          "dimension": "个",
+          "specifications": "OEC67E-1Z30ADC12V"
+        },
+        {
+          "code": "material_nnc67e_1z30adc110v",
+          "identifier": "110401112251000",
+          "name": "NNC67E-1Z30ADC110V",
+          "classify": "T90",
+          "dimension": "个",
+          "specifications": "NNC",
+          "description": "NNC67E-1Z30ADC110V"
+        },
+        {
+          "identifier": "11340211210100000",
+          "name": "HHC67E(T90)1H30ADC24V4脚S",
+          "classify": "T90",
+          "dimension": "个",
+          "specifications": "Clion",
+          "description": "HHC67E(T90)1H30ADC24V4脚S",
+          "code": "material_hhc67e_t90_1h30adc24v4s"
+        },
+        {
+          "classify": "T90",
+          "dimension": "个",
+          "specifications": "OEC67E-1H30ADC24V4脚",
+          "description": "YONGNENG YX209E-S-124DM",
+          "code": "material_yongneng_yx209e_s_124dm",
+          "identifier": "11120211210100000",
+          "name": "YONGNENG YX209E-S-124DM"
+        },
+        {
+          "specifications": "Clion",
+          "description": "HHC67E(T90)1H40ADC12V4脚",
+          "code": "material_hhc67e_t90_1h40adc12v4",
+          "identifier": "11120212205102300",
+          "name": "HHC67E(T90)1H40ADC12V4脚",
+          "classify": "T90",
+          "dimension": "个"
+        }
+      ],
+      "workshop_config": [
+        {
+          "workshop_name": "六车间",
+          "workshop_code": "workshop_6",
+          "pl_list": [
+            {
+              "product_line_code": "product_line_6t90",
+              "product_line_name": "T90继电器生产线"
+            }
+          ]
+        }
+      ],
+      "custom_fields": [
+        {
+          "field_code": "task_date",
+          "field_name": "开单日期"
+        },
+        {
+          "field_code": "plan_no",
+          "field_name": "计划单号"
+        },
+        {
+          "field_code": "main_plan_no",
+          "field_name": "主计划号"
+        },
+        {
+          "field_code": "task_type",
+          "field_name": "任务类型"
+        },
+        {
+          "field_code": "special_requirements",
+          "field_name": "特殊要求"
+        }
+      ]
+    },
+    "info": ""
+  },
+  "/api/plan_management/manage/plan/list": {
+    "app_group": "electrical industry",
+    "app_name": "计划管理",
+    "code": "success",
+    "data": [
+      {
+        "task_no": "12345678",
+        "task_type": "常规产品",
+        "task_date": "2019-01-09",
+        "material_code": "material_t901h40adc12v4_23",
+        "material_name": "T901H40ADC12V 4脚 23规格",
+        "material_spec": "NNC",
+        "material_unit": "个",
+        "plan_count": 1000,
+        "plan_no": "A181120203-00",
+        "plan_start_date": "2019-01-16",
+        "workshop_name": "六车间",
+        "create_time": "2019-01-14 10:13:38",
+        "erp_plan_status": "投放",
+        "plan_status": 3,
+        "main_plan_no": "",
+        "special_requirements": "",
+        "workshop_code": "workshop_6",
+        "comment": "",
+        "product_line_code": "product_line_6t90",
+        "operator": "",
+        "modified_time": "2019-01-15 08:35:25",
+        "dispatch_time": "2019-01-15 08:35:25.773922",
+        "plan_type": 0
+      },
+      {
+        "task_no": "A181120203-00",
+        "task_type": "常规产品",
+        "task_date": "2019-01-10",
+        "material_code": "material_t901d40adc24v4",
+        "material_name": "T901D40ADC24V 4脚",
+        "material_spec": "NNC",
+        "material_unit": "个",
+        "plan_count": 4000,
+        "plan_no": "A181120203-00",
+        "plan_start_date": "2019-01-16",
+        "workshop_name": "六车间",
+        "create_time": "2019-01-14 10:13:38",
+        "erp_plan_status": "",
+        "plan_status": 3,
+        "main_plan_no": "",
+        "special_requirements": "",
+        "workshop_code": "workshop_6",
+        "comment": "",
+        "product_line_code": "product_line_6t90",
+        "operator": "admin",
+        "modified_time": "",
+        "dispatch_time": "2019-01-15 08:28:57.817112",
+        "plan_type": 1
+      },
+      {
+        "task_no": "555",
+        "material_code": "material_t901h40adc12v4_23",
+        "material_name": "T901H40ADC12V 4脚 23规格",
+        "plan_count": "500",
+        "plan_start_date": "",
+        "comment": "",
+        "workshop_name": "六车间",
+        "workshop_code": "workshop_6",
+        "main_plan_no": "",
+        "material_spec": "",
+        "task_type": "12",
+        "special_requirements": "",
+        "task_date": "",
+        "plan_no": "",
+        "material_unit": "个",
+        "operator": null,
+        "create_time": "2019-01-14 15:47:45",
+        "modified_time": "2019-01-15 11:07:42",
+        "plan_status": 0,
+        "plan_type": 1,
+        "product_line_code": "",
+        "dispatch_time": "",
+        "erp_plan_status": ""
+      },
+      {
+        "task_no": "A181120203-12",
+        "task_type": "常规产品",
+        "task_date": "2019-01-14",
+        "material_code": "material_t901d40adc24v4",
+        "material_name": "T901D40ADC24V 4脚",
+        "material_spec": "NNC",
+        "material_unit": "个",
+        "plan_count": 1000,
+        "plan_no": "A181120203-12",
+        "plan_start_date": "",
+        "workshop_name": "六车间",
+        "create_time": "2019-01-14 18:29:45",
+        "erp_plan_status": "下达",
+        "plan_status": 0,
+        "workshop_code": "workshop_6",
+        "comment": "",
+        "product_line_code": "",
+        "operator": "",
+        "modified_time": "2019-01-15 11:07:40",
+        "dispatch_time": "",
+        "plan_type": 0
+      },
+      {
+        "task_no": "1111",
+        "material_code": "material_t901h40adc12v4_23",
+        "material_name": "T901H40ADC12V 4脚 23规格",
+        "plan_count": "100",
+        "plan_start_date": "2019-01-16",
+        "comment": "",
+        "workshop_name": "六车间",
+        "workshop_code": "workshop_6",
+        "task_date": "",
+        "plan_no": "rwer",
+        "main_plan_no": "werwr",
+        "material_spec": "werw",
+        "task_type": "werwr",
+        "special_requirements": "werw",
+        "material_unit": "个",
+        "operator": null,
+        "create_time": "2019-01-15 11:08:06",
+        "modified_time": "2019-01-15 11:08:32",
+        "plan_status": 1,
+        "plan_type": 1,
+        "product_line_code": "product_line_6t90",
+        "dispatch_time": "2019-01-15 11:08:32.153500",
+        "erp_plan_status": ""
+      },
+      {
+        "task_no": "222",
+        "material_code": "material_t901h40adc12v4_23",
+        "material_name": "T901H40ADC12V 4脚 23规格",
+        "plan_count": "100",
+        "plan_start_date": "2019-01-16",
+        "comment": "",
+        "workshop_name": "六车间",
+        "workshop_code": "workshop_6",
+        "task_date": "",
+        "plan_no": "",
+        "main_plan_no": "",
+        "material_spec": "",
+        "task_type": "",
+        "special_requirements": "",
+        "material_unit": "个",
+        "operator": null,
+        "create_time": "2019-01-15 11:08:54",
+        "modified_time": "2019-01-15 11:11:01",
+        "plan_status": 1,
+        "plan_type": 1,
+        "product_line_code": "product_line_6t90",
+        "dispatch_time": "2019-01-15 11:11:01.087463",
+        "erp_plan_status": ""
+      }
+    ],
+    "info": ""
+  },
+  "/api/plan_management/manage/plan/add": {
+    "code": "success",
+    "info": "",
+    "data": {
+      "task_no": "3333",
+      "material_code": "material_t901h40adc12v4_23",
+      "material_name": "T901H40ADC12V 4脚 23规格",
+      "plan_count": "300",
+      "plan_start_date": "2019-01-16",
+      "comment": "",
+      "workshop_name": "六车间",
+      "workshop_code": "workshop_6",
+      "main_plan_no": "",
+      "material_spec": "",
+      "task_type": "",
+      "special_requirements": "",
+      "task_date": "",
+      "plan_no": "",
+      "material_unit": "个",
+      "real_start_date": "",
+      "operator": null,
+      "create_time": "2019-01-14 15:44:03.219906",
+      "modified_time": "2019-01-15 11:14:18.524429",
+      "plan_status": 1,
+      "plan_type": 1,
+      "plan_end_date": "",
+      "real_end_date": "",
+      "product_line_code": "product_line_6t90",
+      "dispatch_time": "2019-01-15 11:14:18.524429",
+      "erp_plan_status": "",
+      "qualified_count": 0,
+      "unqualified_count": 0
+    }
+  },
+  "/api/plan_management/manage/plan/dispatch": {
+    "app_group": "electrical industry",
+    "app_name": "计划管理",
+    "code": "success",
+    "data": [
+      {
+        "task_no": "3333",
+        "material_code": "material_t901h40adc12v4_23",
+        "material_name": "T901H40ADC12V 4脚 23规格",
+        "plan_count": "300",
+        "plan_start_date": "2019-01-16",
+        "comment": "",
+        "workshop_name": "六车间",
+        "workshop_code": "workshop_6",
+        "main_plan_no": "",
+        "material_spec": "",
+        "task_type": "",
+        "special_requirements": "",
+        "task_date": "",
+        "plan_no": "",
+        "material_unit": "个",
+        "real_start_date": "",
+        "operator": null,
+        "create_time": "2019-01-14 15:44:03.219906",
+        "modified_time": "2019-01-15 11:14:18.524429",
+        "plan_status": 1,
+        "plan_type": 1,
+        "plan_end_date": "",
+        "real_end_date": "",
+        "product_line_code": "product_line_6t90",
+        "dispatch_time": "2019-01-15 11:14:18.524429",
+        "erp_plan_status": "",
+        "qualified_count": 0,
+        "unqualified_count": 0
+      },
+      {
+        "task_no": "555",
+        "material_code": "material_t901h40adc12v4_23",
+        "material_name": "T901H40ADC12V 4脚 23规格",
+        "plan_count": "500",
+        "plan_start_date": "2019-01-16",
+        "comment": "",
+        "workshop_name": "六车间",
+        "workshop_code": "workshop_6",
+        "main_plan_no": "",
+        "material_spec": "",
+        "task_type": "12",
+        "special_requirements": "",
+        "task_date": "",
+        "plan_no": "",
+        "material_unit": "个",
+        "real_start_date": "",
+        "operator": null,
+        "create_time": "2019-01-14 15:47:45.069912",
+        "modified_time": "2019-01-15 11:14:18.524430",
+        "plan_status": 1,
+        "plan_type": 1,
+        "plan_end_date": "",
+        "real_end_date": "",
+        "product_line_code": "product_line_6t90",
+        "dispatch_time": "2019-01-15 11:14:18.524430",
+        "erp_plan_status": "",
+        "qualified_count": 0,
+        "unqualified_count": 0
+      }
+    ],
+    "info": ""
+  },
+  "/api/plan_management/manage/plan/delete": {
+    "code":"success",
+    "info": "",
+    "data": null
+  },
+  "/api/plan_management/manage/plan/rollback": {
+    "code":"success",
+    "info": "",
+    "data": {
+      "task_no": "3333",
+      "material_code": "material_t901h40adc12v4_23",
+      "material_name": "T901H40ADC12V 4脚 23规格",
+      "plan_count": "300",
+      "plan_start_date": "2019-01-16",
+      "comment": "",
+      "workshop_name": "六车间",
+      "workshop_code": "workshop_6",
+      "main_plan_no": "",
+      "material_spec": "",
+      "task_type": "",
+      "special_requirements": "",
+      "task_date": "",
+      "plan_no": "",
+      "material_unit": "个",
+      "real_start_date": "",
+      "operator": null,
+      "create_time": "2019-01-14 15:44:03.219906",
+      "modified_time": "2019-01-15 11:14:18.524429",
+      "plan_status": 1,
+      "plan_type": 1,
+      "plan_end_date": "",
+      "real_end_date": "",
+      "product_line_code": "product_line_6t90",
+      "dispatch_time": "2019-01-15 11:14:18.524429",
+      "erp_plan_status": "",
+      "qualified_count": 0,
+      "unqualified_count": 0
+    }
+  },
+  "/api/plan_management/manage/plan/dispatch_check": {
+    "code":"success",
+    "info": "",
+    "data": null
+  },
+  "/api/plan_management/manage/product_line_6t90/2019-01-18/dispatched_plan/list": {
+    "code":"success",
+    "info": "",
+    "data":
+    [
+      {
+        "task_no": "111222",
+        "material_name": "物料A",
+        "plan_status": 2
+      },
+      {
+        "task_no": "111333",
+        "material_name": "物料B",
+        "plan_status": 0
+      }
+    ]
+  }
+}

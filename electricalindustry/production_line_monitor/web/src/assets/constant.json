@@ -1,0 +1,19 @@
+{
+  "colorList": ["#C23531", "#AB0AE8", "#D48265", "#CA8622", "#099EFF", "#E2DBDB"],
+  "piplineCode": "product_line_6t90",
+  "bgColorList": {
+    "bg_ryfz_6t90_z1": "#c23531",
+    "bg_ryfz_6t90_z2": "#AB0AE8",
+    "bg_ryfz_6t90_z3": "#d48265",
+    "bg_ryfz_6t90_z4": "#ca8622",
+    "bg_ryfz_6t90_z5": "#099EFF",
+    "bg_ryfz_6t90_z0": "#AB0AE8"
+  },
+  "processBar": [
+    { "name": "加工", "status": 3, "color": "positive" },
+    { "name": "待工", "status": 1, "color": "warning" },
+    { "name": "关机", "status": 0, "color": "neutral" },
+    { "name": "故障", "status": 2, "color": "negative" }
+  ],
+  "planChartColors": ["#555", "#027be3", "#87ba1b"]
+}
